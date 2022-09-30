@@ -33,24 +33,21 @@
 
 <style lang="postcss" scoped>
 
-.top-heading {
-            @apply uppercase text-4xl md:text-xl lg:text-3xl lg:p-10 xl:p-10 xl:text-4xl md:p-6 text-black 
-            text-center font-extralight;
-        }
+
 .review-container {
     @apply flex flex-col md:flex-row;
 }
 .content-box {
-    @apply md:w-1/2 bg-black text-white;
+    @apply md:w-1/2 bg-black text-white py-6;
 }
 .content-box h1 {
-    @apply pt-8;
+    @apply pt-14 md:-my-10 lg:pt-16 xl:pt-24;
 }
 .content-box p {
-    @apply pb-8;
+    @apply pb-8 md:-mt-4 px-2;
 }
 .content-text {
-    @apply px-8 sm:py-24 md:py-14 text-center text-sm;
+    @apply md:p-2 sm:py-24 md:py-2 md:text-xs text-center sm:text-sm lg:text-sm;
 }
 .textExtra {
     @apply w-full bg-black text-white mx-auto text-sm py-24 my-10;
